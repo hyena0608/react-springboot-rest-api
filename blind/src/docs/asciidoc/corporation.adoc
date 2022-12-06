@@ -1,0 +1,52 @@
+:snippets: build/generated-snippets
+= {docname} API Document
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+:sectlinks:
+
+// SELECT
+
+== Select Corporation API
+
+=== curl request
+
+include::{snippets}/corporation-controller-test/get-corporations-by-title/curl-request.adoc[]
+
+=== Path parameters
+
+include::{snippets}/corporation-controller-test/get-corporations-by-title/path-parameters.adoc[]
+
+=== Response fields
+
+include::{snippets}/corporation-controller-test/get-corporations-by-title/response-fields.adoc[]
+
+=== HTTP request
+
+include::{snippets}/corporation-controller-test/get-corporations-by-title/http-request.adoc[]
+
+=== HTTP response
+
+include::{snippets}/corporation-controller-test/get-corporations-by-title/http-response.adoc[]
+
+// SELECT Corporation Chart
+
+== Select Corporation Chart API
+
+=== curl request
+
+include::{snippets}/corporation-controller-test/get-corporation-chart-test/curl-request.adoc[]
+
+=== Response fields
+
+include::{snippets}/corporation-controller-test/get-corporation-chart-test/response-fields.adoc[]
+
+=== HTTP request
+
+include::{snippets}/corporation-controller-test/get-corporation-chart-test/http-request.adoc[]
+
+=== HTTP response
+
+include::{snippets}/corporation-controller-test/get-corporation-chart-test/http-response.adoc[]

@@ -1,0 +1,32 @@
+:snippets: build/generated-snippets
+= {docname} API Document
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+:sectlinks:
+
+// INSERT
+
+== Insert Member API
+
+=== curl request
+
+include::{snippets}/member-controller-test/save-member-test/curl-request.adoc[]
+
+=== Request fields
+
+include::{snippets}/member-controller-test/save-member-test/request-fields.adoc[]
+
+=== Response fields
+
+include::{snippets}/member-controller-test/save-member-test/response-fields.adoc[]
+
+=== HTTP request
+
+include::{snippets}/member-controller-test/save-member-test/http-request.adoc[]
+
+=== HTTP response
+
+include::{snippets}/member-controller-test/save-member-test/http-response.adoc[]

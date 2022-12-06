@@ -1,0 +1,56 @@
+:snippets: build/generated-snippets
+= {docname} API Document
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+:sectlinks:
+
+// INSERT
+
+== Insert Like API
+
+=== curl request
+
+include::{snippets}/like-controller-test/save-like-test/curl-request.adoc[]
+
+=== Request fields
+
+include::{snippets}/like-controller-test/save-like-test/request-fields.adoc[]
+
+=== Response fields
+
+include::{snippets}/like-controller-test/save-like-test/response-fields.adoc[]
+
+=== HTTP request
+
+include::{snippets}/like-controller-test/save-like-test/http-request.adoc[]
+
+=== HTTP response
+
+include::{snippets}/like-controller-test/save-like-test/http-response.adoc[]
+
+// UPDATE
+
+== Update Like API
+
+=== curl request
+
+include::{snippets}/like-controller-test/update-like/curl-request.adoc[]
+
+=== Request fields
+
+include::{snippets}/like-controller-test/update-like/request-fields.adoc[]
+
+=== Response fields
+
+include::{snippets}/like-controller-test/update-like/response-fields.adoc[]
+
+=== HTTP request
+
+include::{snippets}/like-controller-test/update-like/http-request.adoc[]
+
+=== HTTP response
+
+include::{snippets}/like-controller-test/update-like/http-response.adoc[]

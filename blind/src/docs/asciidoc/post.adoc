@@ -1,0 +1,99 @@
+:snippets: build/generated-snippets
+= {docname} API Document
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+:sectlinks:
+
+
+// SELECT
+
+== Select Post By Category API
+
+=== curl request
+
+include::{snippets}/post-controller-test/get-posts-by-category-id-test/curl-request.adoc[]
+
+=== Query parameters
+
+include::{snippets}/post-controller-test/get-posts-by-category-id-test/query-parameters.adoc[]
+
+=== Response fields
+
+include::{snippets}/post-controller-test/get-posts-by-category-id-test/response-fields.adoc[]
+
+=== HTTP request
+
+include::{snippets}/post-controller-test/get-posts-by-category-id-test/http-request.adoc[]
+
+=== HTTP response
+
+include::{snippets}/post-controller-test/get-posts-by-category-id-test/http-response.adoc[]
+
+== Select Posts Categories API
+
+=== curl request
+
+include::{snippets}/post-controller-test/get-posts-categories-test/curl-request.adoc[]
+
+=== Response fields
+
+include::{snippets}/post-controller-test/get-posts-categories-test/response-fields.adoc[]
+
+=== HTTP request
+
+include::{snippets}/post-controller-test/get-posts-categories-test/http-request.adoc[]
+
+=== HTTP response
+
+include::{snippets}/post-controller-test/get-posts-categories-test/http-response.adoc[]
+
+// INSERT
+
+== Insert Post API
+
+=== curl request
+
+include::{snippets}/post-controller-test/save-post-test/curl-request.adoc[]
+
+=== Request fields
+
+include::{snippets}/post-controller-test/save-post-test/request-fields.adoc[]
+
+=== Response fields
+
+include::{snippets}/post-controller-test/save-post-test/response-fields.adoc[]
+
+=== HTTP request
+
+include::{snippets}/post-controller-test/save-post-test/http-request.adoc[]
+
+=== HTTP response
+
+include::{snippets}/post-controller-test/save-post-test/http-response.adoc[]
+
+// DELETE
+
+== Delete Post API
+
+=== curl request
+
+include::{snippets}/post-controller-test/delete-post-test/curl-request.adoc[]
+
+=== Path parameters
+
+include::{snippets}/post-controller-test/delete-post-test/path-parameters.adoc[]
+
+=== Response fields
+
+include::{snippets}/post-controller-test/delete-post-test/response-fields.adoc[]
+
+=== HTTP request
+
+include::{snippets}/post-controller-test/delete-post-test/http-request.adoc[]
+
+=== HTTP response
+
+include::{snippets}/post-controller-test/delete-post-test/http-response.adoc[]

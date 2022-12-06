@@ -1,0 +1,78 @@
+:snippets: build/generated-snippets
+= {docname} API Document
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+:sectlinks:
+
+== Select Review Chart API
+
+=== curl request
+
+include::{snippets}/review-controller-test/get-reviews-test/curl-request.adoc[]
+
+=== Path parameters
+
+include::{snippets}/review-controller-test/get-reviews-test/path-parameters.adoc[]
+
+=== Response fields
+
+include::{snippets}/review-controller-test/get-reviews-test/response-fields.adoc[]
+
+=== HTTP request
+
+include::{snippets}/review-controller-test/get-reviews-test/http-request.adoc[]
+
+=== HTTP response
+
+include::{snippets}/review-controller-test/get-reviews-test/http-response.adoc[]
+
+// SELECT
+
+== Select Review API
+
+=== curl request
+
+include::{snippets}/review-controller-test/get-reviews-by-corporation-id-test/curl-request.adoc[]
+
+=== Query parameters
+
+include::{snippets}/review-controller-test/get-reviews-by-corporation-id-test/query-parameters.adoc[]
+
+=== Response fields
+
+include::{snippets}/review-controller-test/get-reviews-by-corporation-id-test/response-fields.adoc[]
+
+=== HTTP request
+
+include::{snippets}/review-controller-test/get-reviews-by-corporation-id-test/http-request.adoc[]
+
+=== HTTP response
+
+include::{snippets}/review-controller-test/get-reviews-by-corporation-id-test/http-response.adoc[]
+
+// INSERT
+
+== Insert Review API
+
+=== curl request
+
+include::{snippets}/review-controller-test/save-review-test/curl-request.adoc[]
+
+=== Request fields
+
+include::{snippets}/review-controller-test/save-review-test/request-fields.adoc[]
+
+=== Response fields
+
+include::{snippets}/review-controller-test/save-review-test/response-fields.adoc[]
+
+=== HTTP request
+
+include::{snippets}/review-controller-test/save-review-test/http-request.adoc[]
+
+=== HTTP response
+
+include::{snippets}/review-controller-test/save-review-test/http-response.adoc[]

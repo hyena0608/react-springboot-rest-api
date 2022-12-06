@@ -1,0 +1,80 @@
+:snippets: build/generated-snippets
+= {docname} API Document
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+:sectlinks:
+
+// SELECT
+
+== Select Comment API
+
+=== curl request
+
+include::{snippets}/comment-controller-test/get-comments-by-post-id-test/curl-request.adoc[]
+
+=== Query parameters
+
+include::{snippets}/comment-controller-test/get-comments-by-post-id-test/query-parameters.adoc[]
+
+=== Response fields
+
+include::{snippets}/comment-controller-test/get-comments-by-post-id-test/response-fields.adoc[]
+
+=== HTTP request
+
+include::{snippets}/comment-controller-test/get-comments-by-post-id-test/http-request.adoc[]
+
+=== HTTP response
+
+include::{snippets}/comment-controller-test/get-comments-by-post-id-test/http-response.adoc[]
+
+// INSERT
+
+== Insert Comment API
+
+=== curl request
+
+include::{snippets}/comment-controller-test/save-comment-test/curl-request.adoc[]
+
+=== Request fields
+
+include::{snippets}/comment-controller-test/save-comment-test/request-fields.adoc[]
+
+=== Response fields
+
+include::{snippets}/comment-controller-test/save-comment-test/response-fields.adoc[]
+
+=== HTTP request
+
+include::{snippets}/comment-controller-test/save-comment-test/http-request.adoc[]
+
+=== HTTP response
+
+include::{snippets}/comment-controller-test/save-comment-test/http-response.adoc[]
+
+// DELETE
+
+== Delete Comment API
+
+=== curl request
+
+include::{snippets}/comment-controller-test/delete-by-id-test/curl-request.adoc[]
+
+=== Path parameters
+
+include::{snippets}/comment-controller-test/delete-by-id-test/path-parameters.adoc[]
+
+=== Response fields
+
+include::{snippets}/comment-controller-test/delete-by-id-test/response-fields.adoc[]
+
+=== HTTP request
+
+include::{snippets}/comment-controller-test/delete-by-id-test/http-request.adoc[]
+
+=== HTTP response
+
+include::{snippets}/comment-controller-test/delete-by-id-test/http-response.adoc[]
